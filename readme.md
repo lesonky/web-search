@@ -11,4 +11,9 @@ web-search-plugin for oh-my-zsh 添加了个人常用的搜索项目,去掉了�
 依赖项目:
 code vscode的命令行工具,可以通过vscode安装,也可以把这个改成vim之类的
 
+使用:
+1. 安装 oh-my-zsh
+2. clone 本项目到 oh-my-zsh安装目录/custom/plugin下
+3. 修改.zshrc文件,在 plugin项目下添加web-search插件
+
 个人使用,备份在这里,方便自己维护
