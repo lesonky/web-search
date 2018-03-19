@@ -36,7 +36,9 @@ function web_search() {
     url="${(j://:)${(s:/:)urls[$1]}[1,2]}"
   fi
 
-  $BROWSER "$url"
+  # for WSL use,you can first `export BROWSER="chrome.exe"` then
+  # $BROWSER "$url"
+  open_command "$url"
 }
 
 
